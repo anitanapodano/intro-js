@@ -193,7 +193,7 @@ console.log('I want to say it 10 times:');
 for (let i = 0; i < 10; i++) {
     console.log(i+1 + ': ' + outcome);
 }
-console.log('Mike drop.');
+console.log('Mike drop');
 
 
 // Congrats. You can now advance to the next exercise!

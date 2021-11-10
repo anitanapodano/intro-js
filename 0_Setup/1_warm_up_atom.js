@@ -33,14 +33,17 @@
 // Did something happened? If not, please check again the slides
 // to setup Atom.
 
-let a=              1234    ;
-   a++;
-                if (  a > 123 ) {
-a--;
-        }
-                                              else a++
-        console.log(a);
+let a = 1234;
+a++;
+if (a > 123) {
+    a--;
+}
+else {
+    a++;
+}
+console.log(a);
 
+        
 // b. Why is it still different from the code indented on the slide?
 // Automatic indentation simply adjustes the space on the left-hand
 // side of your code. It neither adds missing parentheses nor trims
@@ -74,12 +77,13 @@ a--;
 // Hint: follow the pattern.
 a = 1
 b = 2
-c .= 3
+c = 3
 
 // Hint: This function has no name following the word function.
-function(notUsed) {
+function sayHello() {
     console.log('Hello!');
 }
+
 
 // EXERCISE 3. Autocompletion.
 //////////////////////////////
@@ -128,9 +132,9 @@ let uselessCode = 'I am useless';
 // and replace the explanation mark with a sad face. Press Esc to eliminate
 // multiple cursors.
 
-catchMeIfYouCan1 = 'You did not catch me!';
-catchMeIfYouCan2 = 'You did not catch me!';
-catchMeIfYouCan3 = 'You did not catch me!';
+catchMeIfYouCan1 = 'You :( catch me!';
+catchMeIfYouCan2 = 'You :( catch me!';
+catchMeIfYouCan3 = 'You :( catch me!';
 
 
 // EXERCISE 5. Bracket Matching.
@@ -146,10 +150,9 @@ catchMeIfYouCan3 = 'You did not catch me!';
 // if statement (it is the second parenthesis). In the main menu, select
 // Packages/Bracket Matcher/Go To Matching Bracket. Where did the cursor go?
 
-if (true) {
+if ((b+c) > 1) {
     console.log("Hei!");
 }
-
 // b. That was easy, furthermore Atom alreadys highlights the matching
 // parentheses. In more complicated cases, you might want to use the
 // keyboard shortcut. What is it? You can search for it in the menu of all
