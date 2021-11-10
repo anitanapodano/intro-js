@@ -132,7 +132,7 @@ let uselessCode = 'I am useless';
 // and replace the explanation mark with a sad face. Press Esc to eliminate
 // multiple cursors.
 
-catchMeIfYouCan1 = 'You :( catch me!';
+catchMeIfYouCan1 = 'You catch me!';
 catchMeIfYouCan2 = 'You :( catch me!';
 catchMeIfYouCan3 = 'You :( catch me!';
 
